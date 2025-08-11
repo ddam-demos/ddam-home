@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "first": "Business",
+      "second": "Consultation"
+    },
+    "content": "If you want to optimize your business by using AI and need consultation on your hypothesis, we provide optimal solution right on time through Proof of Concept.",
+    "image": "/img/slid/bg-3.jpg"
+  },
+  {
+    "id": 2,
+    "title": {
+      "first": "Data",
+      "second": "Analysis"
+    },
+    "content": "If you want to expand or improve your business based on data driven decision making & solution, we collect, cleanse & structure, analyze data for your business.",
+    "image": "/img/slid/metaversa-bg.jpeg"
+  },
+  {
+    "id": 3,
+    "title": {
+      "first": "Digital",
+      "second": "Marketing"
+    },
+    "content": "We support performance-based digital marketing campaigns in the Japanese market, providing value by solving client challenges.​",
+    "image": "/img/slid/color-spray.jpeg"
+  }
+]

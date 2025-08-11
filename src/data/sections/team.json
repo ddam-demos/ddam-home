@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "image": "/img/team/team (1).jpg",
+    "name": "AI Solution Development",
+    "title": "specialized in PoC and AI modules",
+    "hover": "International Olympiad geeks!"
+  },
+  {
+    "id": 2,
+    "image": "/img/team/team (2).jpg",
+    "name": "Data Analysis & System Maintenance",
+    "title": "specialized in Social Media Listening tools",
+    "hover": "Winner of DDAM Audit CUP!"
+  },
+  {
+    "id": 3,
+    "image": "/img/team/team (5).jpg",
+    "name": "Corporate Planning & Operation",
+    "title": "Specialized in the coordination of resources and workflows",
+    "hover": "Think Creatively - Achieve Greatly!"
+  },
+  {
+    "id": 4,
+    "image": "/img/team/team (3).jpg",
+    "name": "System development",
+    "title": "fullstack experts specialized in System  ",
+    "hover": "Not just Coders, all types of Talents!"
+  }
+]

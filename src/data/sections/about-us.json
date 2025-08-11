@@ -1,0 +1,30 @@
+{
+  "id": 1,
+  "image1": "/img/intro/tree-by-dall-e.png",
+  "image2": "/img/intro/astranount-by-dall-e.png",
+  "image3": "/img/intro/network-world.png",
+  "image4": "/img/intro/mobile_about.png",
+  "smallTitle": "OUR VISION",
+  "title": { "first": "ALWAYS TO CREATE HIGH VALUE", "second": "" },
+  "content": "by leading AI implementation in Society by bringing Solution to our clients Business by providing Opportunities to our Members",
+  "features": [
+    {
+      "id": 1,
+      "icon": "gleam",
+      "name": { "first": "AMBITIOUS", "second": "youth" },
+      "wowDelay": ".3s"
+    },
+    {
+      "id": 2,
+      "icon": "paint-bucket",
+      "name": { "first": "Optimal", "second": "Solution" },
+      "wowDelay": ".5s"
+    },
+    {
+      "id": 3,
+      "icon": "medal",
+      "name": { "first": "High", "second": "Performance" },
+      "wowDelay": ".8s"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Data Collection & Analysis",
+    "icon": "pe-7s-gleam",
+    "content": "Data is the strongest when it`s connected. We collect data, cleanse, structure and analyze for your business."
+  },
+  {
+    "id": 2,
+    "title": "AI Modules & System Development",
+    "icon": "pe-7s-phone",
+    "content": "Beside our AI modules menu we develop new modules especially designed for your business solution."
+  },
+  {
+    "id": 3,
+    "title": "Business Consultation & Proof of Concept",
+    "icon": "pe-7s-magic-wand",
+    "content": "We provide optimal solution to your business through high speed and cost effective proof of concept."
+  },
+  {
+    "id": 4,
+    "title": "Digital Marketing Operation",
+    "icon": "pe-7s-users",
+    "content": "Leverage our expertise in Japanese markets to optimize campaigns on renowned global platforms and boost your brand's impact."
+  }
+]
