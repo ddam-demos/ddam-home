@@ -49,7 +49,7 @@ const ContactWithMap = ({ theme = "dark" }) => {
                   <h6>
                     Labor Tower 9F, Sukhbaatar Square, Chingeltei District 1,
                     <br />
-                    Ulaanbaatar 14200, Mongolia
+                    Ulaanbaatar 15160, Mongolia
                   </h6>
                 </div>
                 <div className="social mt-50">

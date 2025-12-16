@@ -438,7 +438,7 @@ const PrivacyDetail = () => {
                             <br />
                             Labor Tower 9F, Sukhbaatar Square, Chingeltei District 1,
                             <br />
-                            Ulaanbaatar 14200, Mongolia
+                            Ulaanbaatar 15160, Mongolia
                             <br />
                             Amarsanaa Agchbayar /Chief Executive Officer/
                           </p>

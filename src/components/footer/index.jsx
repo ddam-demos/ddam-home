@@ -29,7 +29,7 @@ const Footer = ({ noSubBG }) => {
                     <span>Email : </span> ddam@group.data-artist.com
                   </li>
                   <li>
-                    <span>Address : </span> Labor Tower 9F, Sukhbaatar Square, Chingeltei District 1, Ulaanbaatar 14200, Mongolia
+                    <span>Address : </span> Labor Tower 9F, Sukhbaatar Square, Chingeltei District 1, Ulaanbaatar 15160, Mongolia
                   </li>
                   <li>
                     <span>Phone : </span> (+976) 77 11 33 26
