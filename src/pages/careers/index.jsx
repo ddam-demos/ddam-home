@@ -80,7 +80,7 @@ const Careers = () => {
     const formData = new FormData();
     formData.append('name', name);
     formData.append('recipient_email', email);
-    formData.append('hr_email', 'd.baasanjargal@mn.data-artist.com');
+    formData.append('hr_email', 'd.nyamdensmaa@mn.data-artist.com');
     formData.append('phone', phone);
     formData.append('position', position);
     formData.append('message', input);
