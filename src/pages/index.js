@@ -46,8 +46,8 @@ const Homepage = () => {
       <div ref={MainContent} className="main-content">
         <AboutUs />
         <Services withBG withPadding />
-        <Team />
-        <Members />
+        {/* <Team /> */}
+        {/* <Members /> */}
         <CallToAction subBG />
         <Footer />
       </div>
