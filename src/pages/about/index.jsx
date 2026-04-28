@@ -31,7 +31,7 @@ const AboutDark = () => {
       <AboutHeader />
       <AboutIntro />
       <Services withPadding withOutTitle />
-      <Team />
+      {/* <Team /> */}
       <CallToAction subBG />
       <Footer />
     </DarkTheme>
