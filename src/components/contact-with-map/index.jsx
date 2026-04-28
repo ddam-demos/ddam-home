@@ -47,9 +47,10 @@ const ContactWithMap = ({ theme = "dark" }) => {
                 </Split>
                 <div className="item">
                   <h6>
-                    Labor Tower 9F, Sukhbaatar Square, Chingeltei District 1,
+                    Altan Joloo Tower 6F, Seoul street, 5th khoroolol, 3rd
+                    khoroo,
                     <br />
-                    Ulaanbaatar 15160, Mongolia
+                    Sukhbaatar district, Ulaanbaatar Mongolia, 14252.
                   </h6>
                 </div>
                 <div className="social mt-50">
@@ -71,9 +72,7 @@ const ContactWithMap = ({ theme = "dark" }) => {
                 </Split>
                 <div className="item mb-40">
                   <h5>
-                    <a href="https://www.data-artist.com/">
-                      data-artist.com
-                    </a>
+                    <a href="https://www.data-artist.com/">data-artist.com</a>
                   </h5>
                   <h5>(+81) 03-6216-8682</h5>
                 </div>
@@ -101,7 +100,7 @@ const ContactWithMap = ({ theme = "dark" }) => {
       </section>
       <div className="map" id="ieatmaps">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246.51748630180902!2d106.91556416141847!3d47.91957612947173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d9693cb8b951709%3A0xa96efc83b2bfe8d7!2sTrade%20and%20Development%20Bank!5e0!3m2!1sen!2smn!4v1736221144586!5m2!1sen!2smn"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2674.2279077283124!2d106.9035852767896!3d47.91262747121949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d96933fcba07637%3A0xf746822e44ee5b35!2sAltan%20Joloo%20Tower!5e0!3m2!1sja!2smn!4v1777373947582!5m2!1sja!2smn"
           style={{ border: 0 }}
           allowFullScreen=""
           loading="lazy"

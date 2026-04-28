@@ -431,14 +431,22 @@ const PrivacyDetail = () => {
                           </div>
                         </li>
                         <li>
-                          <p style={{ textAlign: "right", lineHeight: "22px", fontStyle: "italic", fontWeight: "200" }}>
+                          <p
+                            style={{
+                              textAlign: "right",
+                              lineHeight: "22px",
+                              fontStyle: "italic",
+                              fontWeight: "200",
+                            }}
+                          >
                             Approved date: August 2022
                             <br />
                             Dentsu Data Artists Mongol LLC
                             <br />
-                            Labor Tower 9F, Sukhbaatar Square, Chingeltei District 1,
+                            Altan Joloo Tower 6F, Seoul street, 5th khoroolol,
+                            3rd khoroo,
                             <br />
-                            Ulaanbaatar 15160, Mongolia
+                            Sukhbaatar district, Ulaanbaatar Mongolia, 14252.
                             <br />
                             Amarsanaa Agchbayar /Chief Executive Officer/
                           </p>

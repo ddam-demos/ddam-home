@@ -29,7 +29,9 @@ const Footer = ({ noSubBG }) => {
                     <span>Email : </span> ddam@group.data-artist.com
                   </li>
                   <li>
-                    <span>Address : </span> Labor Tower 9F, Sukhbaatar Square, Chingeltei District 1, Ulaanbaatar 15160, Mongolia
+                    <span>Address : </span> Altan Joloo Tower 6F, Seoul street,
+                    5th khoroolol, 3rd khoroo, Sukhbaatar district, Ulaanbaatar
+                    Mongolia, 14252.
                   </li>
                   <li>
                     <span>Phone : </span> (+976) 77 11 33 26
@@ -42,13 +44,22 @@ const Footer = ({ noSubBG }) => {
             <div className="social-icon mb-50">
               <h6 className="custom-font stit simple-btn">Follow Us</h6>
               <div className="social">
-                <a href="https://www.facebook.com/DDAMongol" className="icon mr-4">
+                <a
+                  href="https://www.facebook.com/DDAMongol"
+                  className="icon mr-4"
+                >
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="https://mn.linkedin.com/company/ddam" className="icon mr-4">
+                <a
+                  href="https://mn.linkedin.com/company/ddam"
+                  className="icon mr-4"
+                >
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="https://instagram.com/dentsu.data.artist.mongol" className="icon mr-4">
+                <a
+                  href="https://instagram.com/dentsu.data.artist.mongol"
+                  className="icon mr-4"
+                >
                   <i className="fab fa-instagram"></i>
                 </a>
               </div>
