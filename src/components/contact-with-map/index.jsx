@@ -63,7 +63,7 @@ const ContactWithMap = ({ theme = "dark" }) => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
+            {/* <div className="col-lg-6">
               <div className="cont-info">
                 <Split>
                   <h3 className="custom-font wow" data-splitting>
@@ -94,7 +94,7 @@ const ContactWithMap = ({ theme = "dark" }) => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
