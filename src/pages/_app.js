@@ -1,12 +1,12 @@
-import React from 'react'
-import Head from 'next/head'
-import Script from 'next/script'
-import Cursor from '../components/cursor'
-import ScrollToTop from '../components/scroll-to-top'
-import LoadingScreen from '../components/loading-screen'
-import ChatWidget from '../components/mugen-widget'
-import { ChatbotWidget } from 'multichat-web'
-import '../styles/globals.css'
+import React from "react";
+import Head from "next/head";
+import Script from "next/script";
+import Cursor from "../components/cursor";
+import ScrollToTop from "../components/scroll-to-top";
+import LoadingScreen from "../components/loading-screen";
+import ChatWidget from "../components/mugen-widget";
+import { ChatbotWidget } from "multichat-web";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
         ></meta>
         <meta
           name="facebook-domain-verification"
-          content="4bt07rphwq3fgi22t27zymgwj7dh54"
+          content={process.env.NEXT_PUBLIC_FB_DOMAIN_VERIFICATION}
         />
       </Head>
       <LoadingScreen />
@@ -33,7 +33,9 @@ function MyApp({ Component, pageProps }) {
         strategy="beforeInteractive"
         src="https://stg.mugen-ai-chat.jp/widget/widget.mjs"
       ></Script>
-      <Script src="https://www.google.com/recaptcha/enterprise.js?render=6LeWbbMqAAAAACrErwFE6EkydBhfSKkRt5xE8VsI"></Script>
+      <Script
+        src={`https://www.google.com/recaptcha/enterprise.js?render=${process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}`}
+      ></Script>
       <Script
         strategy="beforeInteractive"
         id="wow"
@@ -64,7 +66,7 @@ function MyApp({ Component, pageProps }) {
             s.parentNode.insertBefore(t,s)
           }(window, document,'script',
           'https://connect.facebook.net/en_US/fbevents.js');
-          fbq('init', '603159535839256');
+          fbq('init', '${process.env.NEXT_PUBLIC_META_PIXEL_ID}');
           fbq('track', 'PageView');
         `}
       </Script>
@@ -72,13 +74,13 @@ function MyApp({ Component, pageProps }) {
         <img
           height="1"
           width="1"
-          style={{ display: 'none' }}
-          src="https://www.facebook.com/tr?id=603159535839256&ev=PageView&noscript=1"
+          style={{ display: "none" }}
+          src={`https://www.facebook.com/tr?id=${process.env.NEXT_PUBLIC_META_PIXEL_ID}&ev=PageView&noscript=1`}
         />
       </noscript>
       {/* End Meta Pixel Code */}
     </>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;

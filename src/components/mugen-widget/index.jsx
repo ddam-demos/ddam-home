@@ -3,9 +3,9 @@ import React, { useEffect } from "react";
 const ChatWidget = () => {
   useEffect(() => {
     const mugenProps = {
-      mode: 'embed',
-      projectId: '6476cb57-cb87-41fa-8616-c885926f1fb7',
-      title: 'DDAM AI Chat',
+      mode: "embed",
+      projectId: "6476cb57-cb87-41fa-8616-c885926f1fb7",
+      title: "DDAM AI Chat",
       helloMessage: `Hey there! 😃 I'm the friendly and cool DDAM-er chatbot, ready to help you with any recruitment-related questions. If you're interested in joining our talented team of engineers, feel free to ask away! If I don't know the answer, I promise to make you smile instead. Let's chat!`,
       botAvatar: "",
       userAvatar: "/img/user-icon.png",
@@ -18,8 +18,8 @@ const ChatWidget = () => {
       backgroundImage: "",
       width: "480",
       height: "280",
-      apiKey: '2XkTmBUNALYm',
-      source: 'stg'
+      apiKey: process.env.NEXT_PUBLIC_MUGEN_API_KEY,
+      source: "stg",
     };
 
     if (window.MultiChatEmbed) {
@@ -28,15 +28,13 @@ const ChatWidget = () => {
   }, []);
 
   const styles = {
-    position: 'fixed',
+    position: "fixed",
     zIndex: 100,
     bottom: 0,
     right: 0,
   };
 
-  return (
-    <div id="multi-chat-embed" style={styles}></div>
-  );
+  return <div id="multi-chat-embed" style={styles}></div>;
 };
 
 export default ChatWidget;
